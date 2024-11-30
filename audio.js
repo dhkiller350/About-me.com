@@ -4,7 +4,7 @@
 const audio = new Audio('dark-tales-147852.mp3');
 
 // Set the audio properties
-audio.loop = true; // Loop the audio
+audio.loop = false; // Loop the audio
 audio.volume = 0.5; // Set volume (adjustable)
 
 // Attempt autoplay
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Play audio on user interaction if autoplay fails
 document.addEventListener('click', () => {
-    if (audio.paused) {
+    if (audio.play) {
         audio.play();
     }
 });
