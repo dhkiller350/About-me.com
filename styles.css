@@ -7,13 +7,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 1200vh;
     text-align: center;
     line-height: 2.6;
 }
 
 .portfolio {
-    max-width: 600px;
+    max-width: 700px;
     padding: 20px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
