@@ -7,13 +7,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1200vh;
+    height: 100vh;
     text-align: center;
     line-height: 1.6;
 }
 
 .portfolio {
-    max-width: 700px;
+    max-width: 600px;
     padding: 20px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
@@ -44,6 +44,40 @@ h2 {
 .about p {
     font-size: 1em;
     color: #dcdcdc;
+}
+
+.projects .project-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.projects .project-card:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.projects .project-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.projects .project-card p {
+    font-size: 0.9em;
+    color: #cfcfcf;
+}
+
+.projects .project-card a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.projects .project-card a:hover {
+    color: #00bfff;
 }
 
 footer {
